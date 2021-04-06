@@ -1,0 +1,72 @@
+Test Strategy 
+Application name : Internet based Derivatives Trading Division
+1. Assess testabality-(each factor on a scale of 1-5)
+ a. operabality---> 4
+ b. controlability--->5
+ c. observability-->5
+ d. simplicity--->3	
+ e. understandability--->5
+ f. Suitability--->3
+ g. Stability----->2
+
+2. Assess the test factors that has to be considered for testing the software:
+a. Correctness
+b. Authorization
+c. Continuity of Processing
+d. Access Control
+e. Reliability	
+f. Integrity
+g. Performance  
+
+3. Identify the lifecycle stages of this factors in levels of testing
+a. Authorization : It is done under Integration testing. 
+b. Correctness    : It is done under Integration testing
+c. Continuity of processing : It is done in post UAT(User Acceptance Testing)
+d. Access Control : It comes under System Testing
+e .Reliability : This is one of the factor which comes in all the product.It is done under User Acceptance testing.
+f. Performace : It is done in the System testing.
+g. Integrity : It is done in the System Testing.
+
+4. Assess drivers that would influence testing:
+a. Authorization  : It is done under Integration testing. 
+-->Integration testing is done by Test Engineer/Tester.
+--->Authorization comes under Validation Phase
+--->Integration testing is black box testing
+b. Correctness  : It is done under Integration testing
+-->Integration testing is done by Test Engineer/Tester.
+--->Correctness comes under Validation Phase
+--->Integration testing is black box testing	
+c. Continuity of processing : It is done in post UAT(User Acceptance Testing)
+-->Client/Manager is responsible post UAT(User Acceptance Testing)
+--It requires Black Box Testing.
+-Continuity of processing comes under Verification phase.
+D. Access Control : It comes under System Testing
+---->System Testing is done by the Test Engineer.
+----->Access Control comes under Verification phase.
+----->System testing is black box testing.
+e. Reliability : This is one of the factor which comes in all the product.It is done under User Acceptance testing.
+--->User Acceptance Testing is done by the Client.
+-User Acceptance Testing is Black Box Testing.
+-Reliability comes under Validation Phase.
+f. Performace : It is done under System testing.
+---->System Testing is done by the Test Engineer.
+-- System testing is Black Box Testing
+--Performance comes under Validation.
+g. Integrity : It is done under System Testing.
+---->System Testing is done by the Test Engineer	
+ --System Testing is Black Box Testing
+-Integrity comes under Validation phase.
+Test Plan:Created by Test Lead/Senior Tester	
+1. Test Item : ITDS
+2. Software risk issues : It includes security Testing,performance Testing,Testing at the browser(3rd party like Browsers shoot)platform,browser,configuration.
+3. Features to be Tested : It includes User Registration,Customer Functions,Admin Functions,Manager and member function.
+4. Features not to be Tested : New version not to be tested because that is not part of the scope.
+5. Approach : Approach includes both the White box and Black box testing beacuse it contains code and UI.
+6. Test Deliverables : Documents we are going to create are Source Code,Test Scenario,Test plan,Test case,Test execution Report,Test report, Defect Report.
+7. Item pass/Fail Criteria : If i find 5 minor bug,1 major bug, with No critical/show Stopper in this case i consider the application as pass criteria.
+8. Suspension and Resumption Criteria : Show stoppers in application/Non Availability of resource.Resumption is when the issue is resolved.
+9. Responsibility : It includes the work/Responsibility of project manager,Test Lead,Tester,Customers.
+10. Staffing and Training Need : It includes the details like How many tester are required/which all the area you need training.
+11. Schedule : It is the Time to complete the work.	
+
+
